@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bat Ball Stump</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="outerbox">
+  <h1>Bat Ball Stump Game </h1>
+
+
+  <button id="Bat" 
+    
+    onclick=
+    "  userChoice;
+    userChoice='Bat'
+    let Compsel=computerChoice();
+    let res=getResult(userChoice,Compsel);
+    showResult(userChoice,Compsel,res);"><img src="images/bb.jpg" id="batBf" alt="bat" ></button>
+
+
+  <button id="Ball" onclick="userChoice='Ball'
+    Compsel=computerChoice();
+    res=getResult(userChoice,Compsel);
+    showResult(userChoice,Compsel,res);"><img src="images/bab.webp" id="ballBf" alt="ball" ></button>
+
+
+  <button id="Stump" onclick=" userChoice='Stump'
+     Compsel=computerChoice();
+     res=getResult(userChoice,Compsel);
+     showResult(userChoice,Compsel,res);"><img src="images/sb.jpg" id="stumpBf" alt="stump" ></button>
+
+
+   </div>
+<div ><p id="txtres">Results</p></div>
+<div ><p id="txtres1">Results</p></div>
+<div ><p id="txtres2">Results</p></div>
+<div ><p id="txtres3">Results</p></div>
+<button id="Reset" onclick=" localStorage.clear(); resetScore(); ">Reset</button>
+
+
+<script src="script.js"></script>
+
+</script>
+</body>
+</html>

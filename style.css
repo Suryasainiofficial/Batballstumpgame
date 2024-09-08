@@ -1,0 +1,36 @@
+button#Bat{
+  background-color: black;
+  border-radius: 40px;
+}
+
+ 
+ button#Bat img#batBf{
+  height: 200px;
+  width: 300px;
+  border-radius: 40px;
+  
+}
+button#Ball{
+  background-color: black;
+  border-radius: 40px;
+}
+
+ 
+ button#Ball img#ballBf{
+  height: 200px;
+  width: 300px;
+  border-radius: 40px;
+  
+}
+button#Stump{
+  background-color: black;
+  border-radius: 40px;
+}
+
+ 
+ button#Stump img#stumpBf{
+  height: 200px;
+  width: 300px;
+  border-radius: 40px;
+  
+}
